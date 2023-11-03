@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Agbalumo;
+    src: url(font/Agbalumo-Regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/peakpx.webp);
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-family: Agbalumo;
+    font-size: 130px;
+    color: #fff;
+    mix-blend-mode: difference;
+}
